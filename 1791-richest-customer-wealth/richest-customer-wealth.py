@@ -5,7 +5,7 @@ class Solution(object):
         for customer in accounts:
             current_wealth = 0
             
-            # Har bank account ka balance manually add karo
+            
             for money in customer:
                 current_wealth += money
                 
